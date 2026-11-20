@@ -5,7 +5,7 @@
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-TimeSeriesSplit-F7931E.svg)](https://scikit-learn.org/)
 [![Methodology](https://img.shields.io/badge/Evaluation-Leakage--Controlled-16a34a.svg)](#leakage-controlled-methodology)
 
-> **Live Demo:** `[Add your Streamlit Community Cloud URL here]`
+> **Live Demo:** [https://cse-sl20-dashboard.streamlit.app/](https://cse-sl20-dashboard.streamlit.app/)
 
 An interactive **Streamlit + Plotly** dashboard built on a pre-registered, leakage-controlled machine learning study of **11 Colombo Stock Exchange (S&P SL20)** equities (`CFIN`, `COMB`, `DIAL`, `HAYL`, `HHL`, `HNB`, `JKH`, `LOLC`, `NDB`, `SAMP`, `VONE`).
 
@@ -43,12 +43,9 @@ Once look-ahead leakage, forward-filled holiday rows, and structural breaks are 
 
 ---
 
-## Screenshots
+## Demo Preview
 
-> Add 2–3 screenshots or a short GIF after launching locally or on Streamlit Cloud:
-> - `docs/screenshot_forecast.png` — Tab 1: Forecast & Price Chart
-> - `docs/screenshot_insights.png` — Tab 2: Model Insights & Validation
-> - `docs/screenshot_overview.png` — Tab 3: S&P SL20 Overview (11 Stocks)
+![CSE S&P SL20 Forecast & Risk Dashboard Preview](demo/preview_1.gif)
 
 ---
 
