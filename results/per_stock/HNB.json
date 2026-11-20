@@ -1,0 +1,157 @@
+{
+  "symbol": "HNB",
+  "name": "Hatton National Bank PLC",
+  "direction": {
+    "n_train": 1929,
+    "n_embargo": 10,
+    "n_test": 485,
+    "train_start": "2015-02-20",
+    "train_end": "2023-11-22",
+    "test_start": "2023-12-07",
+    "test_end": "2026-02-17",
+    "best_params": {
+      "max_depth": 8,
+      "min_samples_leaf": 20,
+      "n_estimators": 200
+    },
+    "cv_best_balanced_acc": 0.5111,
+    "rf_train_acc": 0.6796,
+    "rf_test_acc": 0.5608,
+    "rf_correct": 272,
+    "rf_bal_acc": 0.5466,
+    "rf_mcc": 0.1605,
+    "maj_class_from_train": 0,
+    "maj_acc_train_rule": 0.5175,
+    "maj_rate_test": 0.5175,
+    "prev_day_acc": 0.5567,
+    "prev_day_bal_acc": 0.5561,
+    "prev_day_mcc": 0.1122,
+    "lr_acc": 0.5155,
+    "lr_bal_acc": 0.499,
+    "lr_mcc": -0.0057,
+    "confusion_matrix_labels": [
+      "Not-Up (0)",
+      "Up (1)"
+    ],
+    "confusion_matrix": [
+      [
+        239,
+        12
+      ],
+      [
+        201,
+        33
+      ]
+    ],
+    "permutation_importance": {
+      "ret1": {
+        "mean": 0.02089,
+        "std": 0.00654
+      },
+      "ret_lag2": {
+        "mean": 0.02338,
+        "std": 0.00735
+      },
+      "ret_lag3": {
+        "mean": -0.0001,
+        "std": 0.00699
+      },
+      "ret_lag5": {
+        "mean": 0.0105,
+        "std": 0.00735
+      },
+      "roc10": {
+        "mean": 0.00545,
+        "std": 0.00494
+      },
+      "ma10_rel": {
+        "mean": 0.01113,
+        "std": 0.00461
+      },
+      "ma30_rel": {
+        "mean": 0.00444,
+        "std": 0.0048
+      },
+      "rsi": {
+        "mean": 0.00348,
+        "std": 0.00475
+      },
+      "macd_rel": {
+        "mean": 0.00263,
+        "std": 0.00522
+      },
+      "stoch_k": {
+        "mean": 0.0177,
+        "std": 0.00434
+      },
+      "willr": {
+        "mean": 0.01273,
+        "std": 0.00485
+      },
+      "vol_rel": {
+        "mean": 0.02124,
+        "std": 0.009
+      }
+    },
+    "trials": {
+      "rf_grid_configs": 12,
+      "rf_cv_fits": 61,
+      "other_models": 3
+    },
+    "rf_acc_ci_low": 0.5163,
+    "rf_acc_ci_high": 0.6043,
+    "dir_p_raw": 0.031013
+  },
+  "risk": {
+    "n_train": 1935,
+    "n_embargo": 10,
+    "n_test": 487,
+    "train_mean_range": 0.017377,
+    "test_mean_range": 0.019739,
+    "har_intercept": 0.002296,
+    "har_coefs": {
+      "har_d": 0.248172,
+      "har_w": 0.304809,
+      "har_m": 0.322698
+    },
+    "rf_best_params": {
+      "max_depth": 8,
+      "min_samples_leaf": 20,
+      "n_estimators": 200
+    },
+    "har_r2_vs_hist": 0.1556,
+    "har_r2_vs_m22": 0.059,
+    "rf_r2_vs_hist": 0.1428,
+    "rf_r2_vs_m22": 0.0446,
+    "m22_r2_vs_hist": 0.1027,
+    "prev_r2_vs_hist": -0.3002,
+    "spearman_har": 0.4415,
+    "spearman_rf": 0.4185,
+    "spearman_m22": 0.352,
+    "trials": {
+      "rf_grid_configs": 12,
+      "rf_cv_fits": 61,
+      "other_models": 4
+    },
+    "dm_har_vs_hist": {
+      "dm_stat": 2.9842,
+      "p_raw": 0.001422,
+      "maxlags": 5
+    },
+    "dm_har_vs_m22": {
+      "dm_stat": 1.8096,
+      "p_raw": 0.035176,
+      "maxlags": 5
+    },
+    "dm_rf_vs_hist": {
+      "dm_stat": 2.4154,
+      "p_raw": 0.007859,
+      "maxlags": 5
+    },
+    "dm_har_vs_rf": {
+      "dm_stat": 0.7837,
+      "p_raw": 0.216596,
+      "maxlags": 5
+    }
+  }
+}

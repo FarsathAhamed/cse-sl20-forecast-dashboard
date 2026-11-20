@@ -1,0 +1,738 @@
+{
+  "CFIN": [
+    {
+      "date": "2016-04-18",
+      "reason": "gap",
+      "gap_days": 6,
+      "ret_pct": -1.03
+    },
+    {
+      "date": "2016-07-22",
+      "reason": "gap",
+      "gap_days": 7,
+      "ret_pct": 3.94
+    },
+    {
+      "date": "2019-04-16",
+      "reason": "gap",
+      "gap_days": 6,
+      "ret_pct": -4.75
+    },
+    {
+      "date": "2020-03-20",
+      "reason": "gap",
+      "gap_days": 7,
+      "ret_pct": -5.92
+    },
+    {
+      "date": "2020-04-08",
+      "reason": "gap",
+      "gap_days": 19,
+      "ret_pct": 0.0
+    },
+    {
+      "date": "2020-04-15",
+      "reason": "gap",
+      "gap_days": 7,
+      "ret_pct": 0.0
+    },
+    {
+      "date": "2020-05-04",
+      "reason": "gap",
+      "gap_days": 19,
+      "ret_pct": 0.0
+    },
+    {
+      "date": "2020-05-11",
+      "reason": "gap",
+      "gap_days": 7,
+      "ret_pct": 0.0
+    },
+    {
+      "date": "2022-04-18",
+      "reason": "gap",
+      "gap_days": 10,
+      "ret_pct": 0.0
+    },
+    {
+      "date": "2022-04-25",
+      "reason": "gap",
+      "gap_days": 7,
+      "ret_pct": -2.94
+    },
+    {
+      "date": "2023-07-04",
+      "reason": "gap",
+      "gap_days": 6,
+      "ret_pct": 8.08
+    },
+    {
+      "date": "2024-04-15",
+      "reason": "gap",
+      "gap_days": 6,
+      "ret_pct": -0.86
+    }
+  ],
+  "COMB": [
+    {
+      "date": "2020-03-20",
+      "reason": "gap",
+      "gap_days": 7,
+      "ret_pct": -16.64
+    },
+    {
+      "date": "2020-04-08",
+      "reason": "gap",
+      "gap_days": 19,
+      "ret_pct": 0.0
+    },
+    {
+      "date": "2020-04-15",
+      "reason": "gap",
+      "gap_days": 7,
+      "ret_pct": 0.0
+    },
+    {
+      "date": "2020-05-04",
+      "reason": "gap",
+      "gap_days": 19,
+      "ret_pct": 0.0
+    },
+    {
+      "date": "2020-05-11",
+      "reason": "gap",
+      "gap_days": 7,
+      "ret_pct": -8.49
+    },
+    {
+      "date": "2022-04-18",
+      "reason": "gap",
+      "gap_days": 10,
+      "ret_pct": 0.0
+    },
+    {
+      "date": "2022-04-25",
+      "reason": "gap",
+      "gap_days": 7,
+      "ret_pct": -11.17
+    },
+    {
+      "date": "2023-07-04",
+      "reason": "gap",
+      "gap_days": 6,
+      "ret_pct": 18.8
+    },
+    {
+      "date": "2024-04-15",
+      "reason": "gap",
+      "gap_days": 6,
+      "ret_pct": -0.68
+    }
+  ],
+  "DIAL": [
+    {
+      "date": "2020-03-20",
+      "reason": "gap",
+      "gap_days": 7,
+      "ret_pct": -10.53
+    },
+    {
+      "date": "2020-04-08",
+      "reason": "gap",
+      "gap_days": 19,
+      "ret_pct": 0.0
+    },
+    {
+      "date": "2020-04-15",
+      "reason": "gap",
+      "gap_days": 7,
+      "ret_pct": 0.0
+    },
+    {
+      "date": "2020-05-04",
+      "reason": "gap",
+      "gap_days": 19,
+      "ret_pct": 0.0
+    },
+    {
+      "date": "2020-05-11",
+      "reason": "gap",
+      "gap_days": 7,
+      "ret_pct": -2.35
+    },
+    {
+      "date": "2022-04-18",
+      "reason": "gap",
+      "gap_days": 10,
+      "ret_pct": 0.0
+    },
+    {
+      "date": "2022-04-25",
+      "reason": "gap",
+      "gap_days": 7,
+      "ret_pct": -4.17
+    },
+    {
+      "date": "2023-07-04",
+      "reason": "gap",
+      "gap_days": 6,
+      "ret_pct": 0.97
+    },
+    {
+      "date": "2024-04-15",
+      "reason": "gap",
+      "gap_days": 6,
+      "ret_pct": 0.0
+    }
+  ],
+  "HAYL": [
+    {
+      "date": "2015-04-16",
+      "reason": "gap",
+      "gap_days": 6,
+      "ret_pct": 1.61
+    },
+    {
+      "date": "2017-05-15",
+      "reason": "gap",
+      "gap_days": 6,
+      "ret_pct": 0.29
+    },
+    {
+      "date": "2020-01-20",
+      "reason": "gap",
+      "gap_days": 6,
+      "ret_pct": 0.0
+    },
+    {
+      "date": "2020-03-20",
+      "reason": "gap",
+      "gap_days": 7,
+      "ret_pct": -7.76
+    },
+    {
+      "date": "2020-04-08",
+      "reason": "gap",
+      "gap_days": 19,
+      "ret_pct": 0.0
+    },
+    {
+      "date": "2020-04-15",
+      "reason": "gap",
+      "gap_days": 7,
+      "ret_pct": 0.0
+    },
+    {
+      "date": "2020-05-04",
+      "reason": "gap",
+      "gap_days": 19,
+      "ret_pct": 0.0
+    },
+    {
+      "date": "2020-05-11",
+      "reason": "gap",
+      "gap_days": 7,
+      "ret_pct": -2.91
+    },
+    {
+      "date": "2021-02-16",
+      "reason": "gap",
+      "gap_days": 6,
+      "ret_pct": -3.75
+    },
+    {
+      "date": "2022-04-18",
+      "reason": "gap",
+      "gap_days": 10,
+      "ret_pct": 0.0
+    },
+    {
+      "date": "2022-04-25",
+      "reason": "gap",
+      "gap_days": 7,
+      "ret_pct": -12.32
+    },
+    {
+      "date": "2023-07-04",
+      "reason": "gap",
+      "gap_days": 6,
+      "ret_pct": 8.51
+    },
+    {
+      "date": "2024-04-15",
+      "reason": "gap",
+      "gap_days": 6,
+      "ret_pct": -6.61
+    }
+  ],
+  "HHL": [
+    {
+      "date": "2019-04-23",
+      "reason": "gap",
+      "gap_days": 6,
+      "ret_pct": -1.33
+    },
+    {
+      "date": "2020-03-20",
+      "reason": "gap",
+      "gap_days": 7,
+      "ret_pct": -6.33
+    },
+    {
+      "date": "2020-04-08",
+      "reason": "gap",
+      "gap_days": 19,
+      "ret_pct": 0.0
+    },
+    {
+      "date": "2020-04-15",
+      "reason": "gap",
+      "gap_days": 7,
+      "ret_pct": 0.0
+    },
+    {
+      "date": "2020-05-04",
+      "reason": "gap",
+      "gap_days": 19,
+      "ret_pct": 0.0
+    },
+    {
+      "date": "2020-05-11",
+      "reason": "gap",
+      "gap_days": 7,
+      "ret_pct": 4.98
+    },
+    {
+      "date": "2022-04-18",
+      "reason": "gap",
+      "gap_days": 10,
+      "ret_pct": 0.0
+    },
+    {
+      "date": "2022-04-25",
+      "reason": "gap",
+      "gap_days": 7,
+      "ret_pct": -9.91
+    },
+    {
+      "date": "2023-07-04",
+      "reason": "gap",
+      "gap_days": 6,
+      "ret_pct": 5.89
+    },
+    {
+      "date": "2024-04-15",
+      "reason": "gap",
+      "gap_days": 6,
+      "ret_pct": -0.6
+    },
+    {
+      "date": "2025-04-28",
+      "reason": "jump",
+      "gap_days": 3,
+      "ret_pct": -79.71
+    }
+  ],
+  "HNB": [
+    {
+      "date": "2020-03-20",
+      "reason": "gap",
+      "gap_days": 7,
+      "ret_pct": -12.56
+    },
+    {
+      "date": "2020-04-08",
+      "reason": "gap",
+      "gap_days": 19,
+      "ret_pct": 0.0
+    },
+    {
+      "date": "2020-04-15",
+      "reason": "gap",
+      "gap_days": 7,
+      "ret_pct": 0.0
+    },
+    {
+      "date": "2020-05-04",
+      "reason": "gap",
+      "gap_days": 19,
+      "ret_pct": 0.0
+    },
+    {
+      "date": "2020-05-11",
+      "reason": "gap",
+      "gap_days": 7,
+      "ret_pct": -9.61
+    },
+    {
+      "date": "2022-04-18",
+      "reason": "gap",
+      "gap_days": 10,
+      "ret_pct": 0.0
+    },
+    {
+      "date": "2022-04-25",
+      "reason": "gap",
+      "gap_days": 7,
+      "ret_pct": -5.66
+    },
+    {
+      "date": "2023-07-04",
+      "reason": "gap",
+      "gap_days": 6,
+      "ret_pct": 13.13
+    },
+    {
+      "date": "2024-04-15",
+      "reason": "gap",
+      "gap_days": 6,
+      "ret_pct": -0.37
+    }
+  ],
+  "JKH": [
+    {
+      "date": "2015-07-03",
+      "reason": "gap",
+      "gap_days": 8,
+      "ret_pct": 1.63
+    },
+    {
+      "date": "2016-06-30",
+      "reason": "gap",
+      "gap_days": 6,
+      "ret_pct": -0.78
+    },
+    {
+      "date": "2020-03-20",
+      "reason": "gap",
+      "gap_days": 7,
+      "ret_pct": -8.19
+    },
+    {
+      "date": "2020-04-08",
+      "reason": "gap",
+      "gap_days": 19,
+      "ret_pct": 0.0
+    },
+    {
+      "date": "2020-04-15",
+      "reason": "gap",
+      "gap_days": 7,
+      "ret_pct": 0.0
+    },
+    {
+      "date": "2020-05-04",
+      "reason": "gap",
+      "gap_days": 19,
+      "ret_pct": 0.0
+    },
+    {
+      "date": "2020-05-11",
+      "reason": "gap",
+      "gap_days": 7,
+      "ret_pct": -7.19
+    },
+    {
+      "date": "2022-04-18",
+      "reason": "gap",
+      "gap_days": 10,
+      "ret_pct": 0.0
+    },
+    {
+      "date": "2022-04-25",
+      "reason": "gap",
+      "gap_days": 7,
+      "ret_pct": -7.13
+    },
+    {
+      "date": "2023-07-04",
+      "reason": "gap",
+      "gap_days": 6,
+      "ret_pct": 3.67
+    },
+    {
+      "date": "2024-04-15",
+      "reason": "gap",
+      "gap_days": 6,
+      "ret_pct": 1.63
+    },
+    {
+      "date": "2024-11-01",
+      "reason": "jump",
+      "gap_days": 4,
+      "ret_pct": -90.0
+    },
+    {
+      "date": "2024-11-07",
+      "reason": "gap",
+      "gap_days": 6,
+      "ret_pct": 1.18
+    }
+  ],
+  "LOLC": [
+    {
+      "date": "2016-05-26",
+      "reason": "gap",
+      "gap_days": 6,
+      "ret_pct": 0.79
+    },
+    {
+      "date": "2020-03-20",
+      "reason": "gap",
+      "gap_days": 7,
+      "ret_pct": -12.61
+    },
+    {
+      "date": "2020-04-08",
+      "reason": "gap",
+      "gap_days": 19,
+      "ret_pct": 0.0
+    },
+    {
+      "date": "2020-04-15",
+      "reason": "gap",
+      "gap_days": 7,
+      "ret_pct": 0.0
+    },
+    {
+      "date": "2020-05-04",
+      "reason": "gap",
+      "gap_days": 19,
+      "ret_pct": 0.0
+    },
+    {
+      "date": "2020-05-11",
+      "reason": "gap",
+      "gap_days": 7,
+      "ret_pct": -0.88
+    },
+    {
+      "date": "2022-04-18",
+      "reason": "gap",
+      "gap_days": 10,
+      "ret_pct": 0.0
+    },
+    {
+      "date": "2022-04-25",
+      "reason": "gap",
+      "gap_days": 7,
+      "ret_pct": -17.89
+    },
+    {
+      "date": "2023-07-04",
+      "reason": "gap",
+      "gap_days": 6,
+      "ret_pct": 14.33
+    },
+    {
+      "date": "2024-04-15",
+      "reason": "gap",
+      "gap_days": 6,
+      "ret_pct": 6.42
+    }
+  ],
+  "NDB": [
+    {
+      "date": "2020-03-20",
+      "reason": "gap",
+      "gap_days": 7,
+      "ret_pct": -13.46
+    },
+    {
+      "date": "2020-04-08",
+      "reason": "gap",
+      "gap_days": 19,
+      "ret_pct": 0.0
+    },
+    {
+      "date": "2020-04-15",
+      "reason": "gap",
+      "gap_days": 7,
+      "ret_pct": 0.0
+    },
+    {
+      "date": "2020-05-04",
+      "reason": "gap",
+      "gap_days": 19,
+      "ret_pct": 0.0
+    },
+    {
+      "date": "2020-05-11",
+      "reason": "gap",
+      "gap_days": 7,
+      "ret_pct": -9.37
+    },
+    {
+      "date": "2022-04-18",
+      "reason": "gap",
+      "gap_days": 10,
+      "ret_pct": 0.0
+    },
+    {
+      "date": "2022-04-25",
+      "reason": "gap",
+      "gap_days": 7,
+      "ret_pct": -8.24
+    },
+    {
+      "date": "2023-07-04",
+      "reason": "gap",
+      "gap_days": 6,
+      "ret_pct": 14.8
+    },
+    {
+      "date": "2024-04-15",
+      "reason": "gap",
+      "gap_days": 6,
+      "ret_pct": -1.54
+    }
+  ],
+  "SAMP": [
+    {
+      "date": "2015-01-19",
+      "reason": "gap",
+      "gap_days": 6,
+      "ret_pct": -1.25
+    },
+    {
+      "date": "2016-02-24",
+      "reason": "gap",
+      "gap_days": 6,
+      "ret_pct": -0.81
+    },
+    {
+      "date": "2018-01-02",
+      "reason": "gap",
+      "gap_days": 6,
+      "ret_pct": -0.44
+    },
+    {
+      "date": "2020-03-20",
+      "reason": "gap",
+      "gap_days": 7,
+      "ret_pct": -11.72
+    },
+    {
+      "date": "2020-04-08",
+      "reason": "gap",
+      "gap_days": 19,
+      "ret_pct": 0.0
+    },
+    {
+      "date": "2020-04-15",
+      "reason": "gap",
+      "gap_days": 7,
+      "ret_pct": 0.0
+    },
+    {
+      "date": "2020-05-04",
+      "reason": "gap",
+      "gap_days": 19,
+      "ret_pct": 0.0
+    },
+    {
+      "date": "2020-05-11",
+      "reason": "gap",
+      "gap_days": 7,
+      "ret_pct": -15.97
+    },
+    {
+      "date": "2021-03-23",
+      "reason": "gap",
+      "gap_days": 6,
+      "ret_pct": 0.16
+    },
+    {
+      "date": "2021-07-22",
+      "reason": "gap",
+      "gap_days": 6,
+      "ret_pct": -1.7
+    },
+    {
+      "date": "2022-04-18",
+      "reason": "gap",
+      "gap_days": 10,
+      "ret_pct": 0.0
+    },
+    {
+      "date": "2022-04-25",
+      "reason": "gap",
+      "gap_days": 7,
+      "ret_pct": -2.53
+    },
+    {
+      "date": "2023-07-04",
+      "reason": "gap",
+      "gap_days": 6,
+      "ret_pct": 14.49
+    },
+    {
+      "date": "2024-04-15",
+      "reason": "gap",
+      "gap_days": 6,
+      "ret_pct": 1.12
+    }
+  ],
+  "VONE": [
+    {
+      "date": "2020-03-20",
+      "reason": "gap",
+      "gap_days": 7,
+      "ret_pct": -7.69
+    },
+    {
+      "date": "2020-04-08",
+      "reason": "gap",
+      "gap_days": 19,
+      "ret_pct": 0.0
+    },
+    {
+      "date": "2020-04-15",
+      "reason": "gap",
+      "gap_days": 7,
+      "ret_pct": 0.0
+    },
+    {
+      "date": "2020-05-04",
+      "reason": "gap",
+      "gap_days": 19,
+      "ret_pct": 0.0
+    },
+    {
+      "date": "2020-05-11",
+      "reason": "gap",
+      "gap_days": 7,
+      "ret_pct": -6.67
+    },
+    {
+      "date": "2021-07-22",
+      "reason": "gap",
+      "gap_days": 6,
+      "ret_pct": 9.12
+    },
+    {
+      "date": "2022-04-18",
+      "reason": "gap",
+      "gap_days": 10,
+      "ret_pct": 0.0
+    },
+    {
+      "date": "2022-04-25",
+      "reason": "gap",
+      "gap_days": 7,
+      "ret_pct": -15.92
+    },
+    {
+      "date": "2023-07-04",
+      "reason": "gap",
+      "gap_days": 6,
+      "ret_pct": 15.9
+    },
+    {
+      "date": "2024-04-15",
+      "reason": "gap",
+      "gap_days": 6,
+      "ret_pct": 0.74
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "symbol": "LOLC",
+  "name": "LOLC Holdings PLC",
+  "direction": {
+    "n_train": 1890,
+    "n_embargo": 10,
+    "n_test": 475,
+    "train_start": "2015-02-25",
+    "train_end": "2023-12-06",
+    "test_start": "2023-12-21",
+    "test_end": "2026-02-17",
+    "best_params": {
+      "max_depth": 8,
+      "min_samples_leaf": 20,
+      "n_estimators": 200
+    },
+    "cv_best_balanced_acc": 0.5057,
+    "rf_train_acc": 0.6926,
+    "rf_test_acc": 0.6084,
+    "rf_correct": 289,
+    "rf_bal_acc": 0.5158,
+    "rf_mcc": 0.0645,
+    "maj_class_from_train": 0,
+    "maj_acc_train_rule": 0.6063,
+    "maj_rate_test": 0.6063,
+    "prev_day_acc": 0.5495,
+    "prev_day_bal_acc": 0.5281,
+    "prev_day_mcc": 0.0563,
+    "lr_acc": 0.6021,
+    "lr_bal_acc": 0.5012,
+    "lr_mcc": 0.0076,
+    "confusion_matrix_labels": [
+      "Not-Up (0)",
+      "Up (1)"
+    ],
+    "confusion_matrix": [
+      [
+        274,
+        14
+      ],
+      [
+        172,
+        15
+      ]
+    ],
+    "permutation_importance": {
+      "ret1": {
+        "mean": 0.00774,
+        "std": 0.0047
+      },
+      "ret_lag2": {
+        "mean": 0.00144,
+        "std": 0.00805
+      },
+      "ret_lag3": {
+        "mean": 0.00497,
+        "std": 0.0053
+      },
+      "ret_lag5": {
+        "mean": 0.00448,
+        "std": 0.00438
+      },
+      "roc10": {
+        "mean": -0.00783,
+        "std": 0.00545
+      },
+      "ma10_rel": {
+        "mean": 0.02198,
+        "std": 0.0053
+      },
+      "ma30_rel": {
+        "mean": 0.01051,
+        "std": 0.00544
+      },
+      "rsi": {
+        "mean": 0.006,
+        "std": 0.00488
+      },
+      "macd_rel": {
+        "mean": -0.00365,
+        "std": 0.00435
+      },
+      "stoch_k": {
+        "mean": 0.00531,
+        "std": 0.00394
+      },
+      "willr": {
+        "mean": 0.00619,
+        "std": 0.00382
+      },
+      "vol_rel": {
+        "mean": 0.01591,
+        "std": 0.00509
+      }
+    },
+    "trials": {
+      "rf_grid_configs": 12,
+      "rf_cv_fits": 61,
+      "other_models": 3
+    },
+    "rf_acc_ci_low": 0.5638,
+    "rf_acc_ci_high": 0.6513,
+    "dir_p_raw": 0.482321
+  },
+  "risk": {
+    "n_train": 1896,
+    "n_embargo": 10,
+    "n_test": 477,
+    "train_mean_range": 0.033595,
+    "test_mean_range": 0.026444,
+    "har_intercept": 0.004021,
+    "har_coefs": {
+      "har_d": 0.288783,
+      "har_w": 0.327599,
+      "har_m": 0.269937
+    },
+    "rf_best_params": {
+      "max_depth": 5,
+      "min_samples_leaf": 20,
+      "n_estimators": 500
+    },
+    "har_r2_vs_hist": 0.2754,
+    "har_r2_vs_m22": 0.0557,
+    "rf_r2_vs_hist": 0.2609,
+    "rf_r2_vs_m22": 0.0369,
+    "m22_r2_vs_hist": 0.2326,
+    "prev_r2_vs_hist": -0.1086,
+    "spearman_har": 0.4183,
+    "spearman_rf": 0.3943,
+    "spearman_m22": 0.3487,
+    "trials": {
+      "rf_grid_configs": 12,
+      "rf_cv_fits": 61,
+      "other_models": 4
+    },
+    "dm_har_vs_hist": {
+      "dm_stat": 5.4153,
+      "p_raw": 0.0,
+      "maxlags": 5
+    },
+    "dm_har_vs_m22": {
+      "dm_stat": 1.6233,
+      "p_raw": 0.05226,
+      "maxlags": 5
+    },
+    "dm_rf_vs_hist": {
+      "dm_stat": 4.916,
+      "p_raw": 0.0,
+      "maxlags": 5
+    },
+    "dm_har_vs_rf": {
+      "dm_stat": 1.413,
+      "p_raw": 0.07883,
+      "maxlags": 5
+    }
+  }
+}

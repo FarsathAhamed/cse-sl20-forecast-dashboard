@@ -1,0 +1,157 @@
+{
+  "symbol": "CFIN",
+  "name": "Central Finance Company PLC",
+  "direction": {
+    "n_train": 1826,
+    "n_embargo": 10,
+    "n_test": 459,
+    "train_start": "2015-02-20",
+    "train_end": "2024-01-02",
+    "test_start": "2024-01-18",
+    "test_end": "2026-02-17",
+    "best_params": {
+      "max_depth": 8,
+      "min_samples_leaf": 20,
+      "n_estimators": 200
+    },
+    "cv_best_balanced_acc": 0.5109,
+    "rf_train_acc": 0.7065,
+    "rf_test_acc": 0.5882,
+    "rf_correct": 270,
+    "rf_bal_acc": 0.5135,
+    "rf_mcc": 0.0598,
+    "maj_class_from_train": 0,
+    "maj_acc_train_rule": 0.5839,
+    "maj_rate_test": 0.5839,
+    "prev_day_acc": 0.5447,
+    "prev_day_bal_acc": 0.5319,
+    "prev_day_mcc": 0.0637,
+    "lr_acc": 0.5861,
+    "lr_bal_acc": 0.5034,
+    "lr_mcc": 0.0412,
+    "confusion_matrix_labels": [
+      "Not-Up (0)",
+      "Up (1)"
+    ],
+    "confusion_matrix": [
+      [
+        257,
+        11
+      ],
+      [
+        178,
+        13
+      ]
+    ],
+    "permutation_importance": {
+      "ret1": {
+        "mean": 0.00586,
+        "std": 0.00428
+      },
+      "ret_lag2": {
+        "mean": 0.00023,
+        "std": 0.00556
+      },
+      "ret_lag3": {
+        "mean": -0.0061,
+        "std": 0.00741
+      },
+      "ret_lag5": {
+        "mean": 0.00466,
+        "std": 0.00587
+      },
+      "roc10": {
+        "mean": 0.00572,
+        "std": 0.00681
+      },
+      "ma10_rel": {
+        "mean": -0.00036,
+        "std": 0.00485
+      },
+      "ma30_rel": {
+        "mean": 0.0073,
+        "std": 0.00501
+      },
+      "rsi": {
+        "mean": 0.01474,
+        "std": 0.0066
+      },
+      "macd_rel": {
+        "mean": 0.00803,
+        "std": 0.00621
+      },
+      "stoch_k": {
+        "mean": -0.00257,
+        "std": 0.00497
+      },
+      "willr": {
+        "mean": -0.00413,
+        "std": 0.00633
+      },
+      "vol_rel": {
+        "mean": 0.01095,
+        "std": 0.00472
+      }
+    },
+    "trials": {
+      "rf_grid_configs": 12,
+      "rf_cv_fits": 61,
+      "other_models": 3
+    },
+    "rf_acc_ci_low": 0.5427,
+    "rf_acc_ci_high": 0.6323,
+    "dir_p_raw": 0.444938
+  },
+  "risk": {
+    "n_train": 1832,
+    "n_embargo": 10,
+    "n_test": 461,
+    "train_mean_range": 0.021212,
+    "test_mean_range": 0.028269,
+    "har_intercept": 0.003493,
+    "har_coefs": {
+      "har_d": 0.210484,
+      "har_w": 0.367351,
+      "har_m": 0.260642
+    },
+    "rf_best_params": {
+      "max_depth": 3,
+      "min_samples_leaf": 20,
+      "n_estimators": 500
+    },
+    "har_r2_vs_hist": 0.275,
+    "har_r2_vs_m22": 0.1328,
+    "rf_r2_vs_hist": 0.2578,
+    "rf_r2_vs_m22": 0.1122,
+    "m22_r2_vs_hist": 0.1639,
+    "prev_r2_vs_hist": -0.0698,
+    "spearman_har": 0.4154,
+    "spearman_rf": 0.3991,
+    "spearman_m22": 0.2298,
+    "trials": {
+      "rf_grid_configs": 12,
+      "rf_cv_fits": 61,
+      "other_models": 4
+    },
+    "dm_har_vs_hist": {
+      "dm_stat": 3.6498,
+      "p_raw": 0.000131,
+      "maxlags": 5
+    },
+    "dm_har_vs_m22": {
+      "dm_stat": 2.9935,
+      "p_raw": 0.001379,
+      "maxlags": 5
+    },
+    "dm_rf_vs_hist": {
+      "dm_stat": 3.4272,
+      "p_raw": 0.000305,
+      "maxlags": 5
+    },
+    "dm_har_vs_rf": {
+      "dm_stat": 1.3789,
+      "p_raw": 0.08396,
+      "maxlags": 5
+    }
+  }
+}

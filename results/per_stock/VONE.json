@@ -1,0 +1,157 @@
+{
+  "symbol": "VONE",
+  "name": "Vallibel One PLC",
+  "direction": {
+    "n_train": 1913,
+    "n_embargo": 10,
+    "n_test": 481,
+    "train_start": "2015-02-20",
+    "train_end": "2023-11-28",
+    "test_start": "2023-12-13",
+    "test_end": "2026-02-17",
+    "best_params": {
+      "max_depth": 3,
+      "min_samples_leaf": 20,
+      "n_estimators": 500
+    },
+    "cv_best_balanced_acc": 0.5039,
+    "rf_train_acc": 0.6309,
+    "rf_test_acc": 0.5301,
+    "rf_correct": 255,
+    "rf_bal_acc": 0.498,
+    "rf_mcc": -0.0428,
+    "maj_class_from_train": 0,
+    "maj_acc_train_rule": 0.5322,
+    "maj_rate_test": 0.5322,
+    "prev_day_acc": 0.499,
+    "prev_day_bal_acc": 0.4967,
+    "prev_day_mcc": -0.0065,
+    "lr_acc": 0.5322,
+    "lr_bal_acc": 0.5,
+    "lr_mcc": 0.0,
+    "confusion_matrix_labels": [
+      "Not-Up (0)",
+      "Up (1)"
+    ],
+    "confusion_matrix": [
+      [
+        255,
+        1
+      ],
+      [
+        225,
+        0
+      ]
+    ],
+    "permutation_importance": {
+      "ret1": {
+        "mean": -0.00215,
+        "std": 0.00123
+      },
+      "ret_lag2": {
+        "mean": -0.00274,
+        "std": 0.00188
+      },
+      "ret_lag3": {
+        "mean": -0.00061,
+        "std": 0.00154
+      },
+      "ret_lag5": {
+        "mean": 0.00097,
+        "std": 0.00145
+      },
+      "roc10": {
+        "mean": 4e-05,
+        "std": 0.00098
+      },
+      "ma10_rel": {
+        "mean": -0.00179,
+        "std": 0.00111
+      },
+      "ma30_rel": {
+        "mean": 0.00162,
+        "std": 0.00134
+      },
+      "rsi": {
+        "mean": 0.0015,
+        "std": 0.00275
+      },
+      "macd_rel": {
+        "mean": 0.00079,
+        "std": 0.00161
+      },
+      "stoch_k": {
+        "mean": -0.0015,
+        "std": 0.00083
+      },
+      "willr": {
+        "mean": -0.00163,
+        "std": 0.00073
+      },
+      "vol_rel": {
+        "mean": -0.00191,
+        "std": 0.00084
+      }
+    },
+    "trials": {
+      "rf_grid_configs": 12,
+      "rf_cv_fits": 61,
+      "other_models": 3
+    },
+    "rf_acc_ci_low": 0.4855,
+    "rf_acc_ci_high": 0.5743,
+    "dir_p_raw": 0.554459
+  },
+  "risk": {
+    "n_train": 1919,
+    "n_embargo": 10,
+    "n_test": 483,
+    "train_mean_range": 0.035785,
+    "test_mean_range": 0.02763,
+    "har_intercept": 0.003915,
+    "har_coefs": {
+      "har_d": 0.296993,
+      "har_w": 0.286336,
+      "har_m": 0.304687
+    },
+    "rf_best_params": {
+      "max_depth": 3,
+      "min_samples_leaf": 20,
+      "n_estimators": 200
+    },
+    "har_r2_vs_hist": 0.2755,
+    "har_r2_vs_m22": 0.0889,
+    "rf_r2_vs_hist": 0.233,
+    "rf_r2_vs_m22": 0.0355,
+    "m22_r2_vs_hist": 0.2048,
+    "prev_r2_vs_hist": -0.0825,
+    "spearman_har": 0.4034,
+    "spearman_rf": 0.3784,
+    "spearman_m22": 0.2151,
+    "trials": {
+      "rf_grid_configs": 12,
+      "rf_cv_fits": 61,
+      "other_models": 4
+    },
+    "dm_har_vs_hist": {
+      "dm_stat": 4.7232,
+      "p_raw": 1e-06,
+      "maxlags": 5
+    },
+    "dm_har_vs_m22": {
+      "dm_stat": 2.4616,
+      "p_raw": 0.006916,
+      "maxlags": 5
+    },
+    "dm_rf_vs_hist": {
+      "dm_stat": 3.411,
+      "p_raw": 0.000324,
+      "maxlags": 5
+    },
+    "dm_har_vs_rf": {
+      "dm_stat": 1.6581,
+      "p_raw": 0.048649,
+      "maxlags": 5
+    }
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "symbol": "DIAL",
+  "name": "Dialog Axiata PLC",
+  "direction": {
+    "n_train": 1944,
+    "n_embargo": 10,
+    "n_test": 489,
+    "train_start": "2015-02-20",
+    "train_end": "2023-11-16",
+    "test_start": "2023-12-01",
+    "test_end": "2026-02-17",
+    "best_params": {
+      "max_depth": 3,
+      "min_samples_leaf": 20,
+      "n_estimators": 200
+    },
+    "cv_best_balanced_acc": 0.5,
+    "rf_train_acc": 0.7011,
+    "rf_test_acc": 0.5665,
+    "rf_correct": 277,
+    "rf_bal_acc": 0.5,
+    "rf_mcc": 0.0,
+    "maj_class_from_train": 0,
+    "maj_acc_train_rule": 0.5665,
+    "maj_rate_test": 0.5665,
+    "prev_day_acc": 0.501,
+    "prev_day_bal_acc": 0.492,
+    "prev_day_mcc": -0.0159,
+    "lr_acc": 0.5665,
+    "lr_bal_acc": 0.5,
+    "lr_mcc": 0.0,
+    "confusion_matrix_labels": [
+      "Not-Up (0)",
+      "Up (1)"
+    ],
+    "confusion_matrix": [
+      [
+        277,
+        0
+      ],
+      [
+        212,
+        0
+      ]
+    ],
+    "permutation_importance": {
+      "ret1": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "ret_lag2": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "ret_lag3": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "ret_lag5": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "roc10": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "ma10_rel": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "ma30_rel": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "rsi": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "macd_rel": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "stoch_k": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "willr": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "vol_rel": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    "trials": {
+      "rf_grid_configs": 12,
+      "rf_cv_fits": 61,
+      "other_models": 3
+    },
+    "rf_acc_ci_low": 0.5222,
+    "rf_acc_ci_high": 0.6097,
+    "dir_p_raw": 0.519671
+  },
+  "risk": {
+    "n_train": 1950,
+    "n_embargo": 10,
+    "n_test": 491,
+    "train_mean_range": 0.020239,
+    "test_mean_range": 0.024025,
+    "har_intercept": 0.004927,
+    "har_coefs": {
+      "har_d": 0.247215,
+      "har_w": 0.160646,
+      "har_m": 0.34975
+    },
+    "rf_best_params": {
+      "max_depth": 5,
+      "min_samples_leaf": 20,
+      "n_estimators": 200
+    },
+    "har_r2_vs_hist": 0.0978,
+    "har_r2_vs_m22": 0.0686,
+    "rf_r2_vs_hist": 0.0863,
+    "rf_r2_vs_m22": 0.0567,
+    "m22_r2_vs_hist": 0.0314,
+    "prev_r2_vs_hist": -0.467,
+    "spearman_har": 0.3099,
+    "spearman_rf": 0.2814,
+    "spearman_m22": 0.1556,
+    "trials": {
+      "rf_grid_configs": 12,
+      "rf_cv_fits": 61,
+      "other_models": 4
+    },
+    "dm_har_vs_hist": {
+      "dm_stat": 3.0889,
+      "p_raw": 0.001004,
+      "maxlags": 5
+    },
+    "dm_har_vs_m22": {
+      "dm_stat": 2.2155,
+      "p_raw": 0.013361,
+      "maxlags": 5
+    },
+    "dm_rf_vs_hist": {
+      "dm_stat": 2.2545,
+      "p_raw": 0.012082,
+      "maxlags": 5
+    },
+    "dm_har_vs_rf": {
+      "dm_stat": 0.5396,
+      "p_raw": 0.294727,
+      "maxlags": 5
+    }
+  }
+}

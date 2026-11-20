@@ -1,0 +1,157 @@
+{
+  "symbol": "HAYL",
+  "name": "Hayleys PLC",
+  "direction": {
+    "n_train": 1798,
+    "n_embargo": 10,
+    "n_test": 453,
+    "train_start": "2015-03-06",
+    "train_end": "2024-01-10",
+    "test_start": "2024-01-29",
+    "test_end": "2026-02-17",
+    "best_params": {
+      "max_depth": 3,
+      "min_samples_leaf": 20,
+      "n_estimators": 200
+    },
+    "cv_best_balanced_acc": 0.5102,
+    "rf_train_acc": 0.6413,
+    "rf_test_acc": 0.4857,
+    "rf_correct": 220,
+    "rf_bal_acc": 0.4866,
+    "rf_mcc": -0.0496,
+    "maj_class_from_train": 0,
+    "maj_acc_train_rule": 0.4989,
+    "maj_rate_test": 0.5011,
+    "prev_day_acc": 0.4989,
+    "prev_day_bal_acc": 0.4989,
+    "prev_day_mcc": -0.0022,
+    "lr_acc": 0.5011,
+    "lr_bal_acc": 0.5022,
+    "lr_mcc": 0.0155,
+    "confusion_matrix_labels": [
+      "Not-Up (0)",
+      "Up (1)"
+    ],
+    "confusion_matrix": [
+      [
+        205,
+        21
+      ],
+      [
+        212,
+        15
+      ]
+    ],
+    "permutation_importance": {
+      "ret1": {
+        "mean": -0.00761,
+        "std": 0.00555
+      },
+      "ret_lag2": {
+        "mean": -0.00059,
+        "std": 0.00261
+      },
+      "ret_lag3": {
+        "mean": 0.0014,
+        "std": 0.00258
+      },
+      "ret_lag5": {
+        "mean": -0.00663,
+        "std": 0.00403
+      },
+      "roc10": {
+        "mean": -0.01007,
+        "std": 0.00558
+      },
+      "ma10_rel": {
+        "mean": -0.01343,
+        "std": 0.00403
+      },
+      "ma30_rel": {
+        "mean": -0.01304,
+        "std": 0.006
+      },
+      "rsi": {
+        "mean": -0.0037,
+        "std": 0.00309
+      },
+      "macd_rel": {
+        "mean": -0.01194,
+        "std": 0.00597
+      },
+      "stoch_k": {
+        "mean": -0.00748,
+        "std": 0.00451
+      },
+      "willr": {
+        "mean": -0.0091,
+        "std": 0.00447
+      },
+      "vol_rel": {
+        "mean": -0.00578,
+        "std": 0.00779
+      }
+    },
+    "trials": {
+      "rf_grid_configs": 12,
+      "rf_cv_fits": 61,
+      "other_models": 3
+    },
+    "rf_acc_ci_low": 0.4399,
+    "rf_acc_ci_high": 0.5316,
+    "dir_p_raw": 0.759456
+  },
+  "risk": {
+    "n_train": 1805,
+    "n_embargo": 10,
+    "n_test": 454,
+    "train_mean_range": 0.023807,
+    "test_mean_range": 0.022678,
+    "har_intercept": 0.002571,
+    "har_coefs": {
+      "har_d": 0.243551,
+      "har_w": 0.283393,
+      "har_m": 0.379046
+    },
+    "rf_best_params": {
+      "max_depth": 3,
+      "min_samples_leaf": 20,
+      "n_estimators": 200
+    },
+    "har_r2_vs_hist": 0.1766,
+    "har_r2_vs_m22": 0.1832,
+    "rf_r2_vs_hist": 0.0862,
+    "rf_r2_vs_m22": 0.0935,
+    "m22_r2_vs_hist": -0.008,
+    "prev_r2_vs_hist": -0.0961,
+    "spearman_har": 0.4795,
+    "spearman_rf": 0.3865,
+    "spearman_m22": 0.2234,
+    "trials": {
+      "rf_grid_configs": 12,
+      "rf_cv_fits": 61,
+      "other_models": 4
+    },
+    "dm_har_vs_hist": {
+      "dm_stat": 3.782,
+      "p_raw": 7.8e-05,
+      "maxlags": 5
+    },
+    "dm_har_vs_m22": {
+      "dm_stat": 3.7385,
+      "p_raw": 9.3e-05,
+      "maxlags": 5
+    },
+    "dm_rf_vs_hist": {
+      "dm_stat": 1.5935,
+      "p_raw": 0.055524,
+      "maxlags": 5
+    },
+    "dm_har_vs_rf": {
+      "dm_stat": 2.9738,
+      "p_raw": 0.001471,
+      "maxlags": 5
+    }
+  }
+}

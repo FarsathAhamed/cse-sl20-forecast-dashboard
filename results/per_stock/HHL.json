@@ -1,0 +1,157 @@
+{
+  "symbol": "HHL",
+  "name": "Hemas Holdings PLC",
+  "direction": {
+    "n_train": 1854,
+    "n_embargo": 10,
+    "n_test": 466,
+    "train_start": "2015-02-20",
+    "train_end": "2023-10-30",
+    "test_start": "2023-11-14",
+    "test_end": "2026-02-17",
+    "best_params": {
+      "max_depth": 5,
+      "min_samples_leaf": 20,
+      "n_estimators": 200
+    },
+    "cv_best_balanced_acc": 0.5222,
+    "rf_train_acc": 0.6575,
+    "rf_test_acc": 0.5708,
+    "rf_correct": 266,
+    "rf_bal_acc": 0.5091,
+    "rf_mcc": 0.0654,
+    "maj_class_from_train": 0,
+    "maj_acc_train_rule": 0.5644,
+    "maj_rate_test": 0.5644,
+    "prev_day_acc": 0.5386,
+    "prev_day_bal_acc": 0.5311,
+    "prev_day_mcc": 0.0622,
+    "lr_acc": 0.5751,
+    "lr_bal_acc": 0.5179,
+    "lr_mcc": 0.0789,
+    "confusion_matrix_labels": [
+      "Not-Up (0)",
+      "Up (1)"
+    ],
+    "confusion_matrix": [
+      [
+        260,
+        3
+      ],
+      [
+        197,
+        6
+      ]
+    ],
+    "permutation_importance": {
+      "ret1": {
+        "mean": 0.00733,
+        "std": 0.00316
+      },
+      "ret_lag2": {
+        "mean": 0.00118,
+        "std": 0.00273
+      },
+      "ret_lag3": {
+        "mean": -0.00397,
+        "std": 0.00226
+      },
+      "ret_lag5": {
+        "mean": -0.00049,
+        "std": 0.00356
+      },
+      "roc10": {
+        "mean": 0.0021,
+        "std": 0.00518
+      },
+      "ma10_rel": {
+        "mean": 0.00719,
+        "std": 0.00474
+      },
+      "ma30_rel": {
+        "mean": 0.00197,
+        "std": 0.00289
+      },
+      "rsi": {
+        "mean": 0.00581,
+        "std": 0.00261
+      },
+      "macd_rel": {
+        "mean": 0.00167,
+        "std": 0.00231
+      },
+      "stoch_k": {
+        "mean": -0.00087,
+        "std": 0.00345
+      },
+      "willr": {
+        "mean": 0.00047,
+        "std": 0.00269
+      },
+      "vol_rel": {
+        "mean": 0.0004,
+        "std": 0.00398
+      }
+    },
+    "trials": {
+      "rf_grid_configs": 12,
+      "rf_cv_fits": 61,
+      "other_models": 3
+    },
+    "rf_acc_ci_low": 0.5255,
+    "rf_acc_ci_high": 0.615,
+    "dir_p_raw": 0.408791
+  },
+  "risk": {
+    "n_train": 1860,
+    "n_embargo": 10,
+    "n_test": 468,
+    "train_mean_range": 0.022025,
+    "test_mean_range": 0.019856,
+    "har_intercept": 0.004076,
+    "har_coefs": {
+      "har_d": 0.153096,
+      "har_w": 0.256071,
+      "har_m": 0.40826
+    },
+    "rf_best_params": {
+      "max_depth": 3,
+      "min_samples_leaf": 20,
+      "n_estimators": 500
+    },
+    "har_r2_vs_hist": 0.1817,
+    "har_r2_vs_m22": 0.1028,
+    "rf_r2_vs_hist": 0.1715,
+    "rf_r2_vs_m22": 0.0916,
+    "m22_r2_vs_hist": 0.0879,
+    "prev_r2_vs_hist": -0.2341,
+    "spearman_har": 0.3881,
+    "spearman_rf": 0.3751,
+    "spearman_m22": 0.3,
+    "trials": {
+      "rf_grid_configs": 12,
+      "rf_cv_fits": 61,
+      "other_models": 4
+    },
+    "dm_har_vs_hist": {
+      "dm_stat": 3.7337,
+      "p_raw": 9.4e-05,
+      "maxlags": 5
+    },
+    "dm_har_vs_m22": {
+      "dm_stat": 2.3803,
+      "p_raw": 0.00865,
+      "maxlags": 5
+    },
+    "dm_rf_vs_hist": {
+      "dm_stat": 3.21,
+      "p_raw": 0.000664,
+      "maxlags": 5
+    },
+    "dm_har_vs_rf": {
+      "dm_stat": 0.8633,
+      "p_raw": 0.193987,
+      "maxlags": 5
+    }
+  }
+}

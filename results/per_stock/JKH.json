@@ -1,0 +1,157 @@
+{
+  "symbol": "JKH",
+  "name": "John Keells Holdings PLC",
+  "direction": {
+    "n_train": 1849,
+    "n_embargo": 10,
+    "n_test": 465,
+    "train_start": "2015-02-20",
+    "train_end": "2023-10-27",
+    "test_start": "2023-11-13",
+    "test_end": "2026-02-17",
+    "best_params": {
+      "max_depth": 5,
+      "min_samples_leaf": 20,
+      "n_estimators": 500
+    },
+    "cv_best_balanced_acc": 0.5499,
+    "rf_train_acc": 0.6701,
+    "rf_test_acc": 0.6172,
+    "rf_correct": 287,
+    "rf_bal_acc": 0.565,
+    "rf_mcc": 0.1611,
+    "maj_class_from_train": 0,
+    "maj_acc_train_rule": 0.5892,
+    "maj_rate_test": 0.5892,
+    "prev_day_acc": 0.6,
+    "prev_day_bal_acc": 0.586,
+    "prev_day_mcc": 0.1724,
+    "lr_acc": 0.5892,
+    "lr_bal_acc": 0.5301,
+    "lr_mcc": 0.0802,
+    "confusion_matrix_labels": [
+      "Not-Up (0)",
+      "Up (1)"
+    ],
+    "confusion_matrix": [
+      [
+        235,
+        39
+      ],
+      [
+        139,
+        52
+      ]
+    ],
+    "permutation_importance": {
+      "ret1": {
+        "mean": 0.03749,
+        "std": 0.01315
+      },
+      "ret_lag2": {
+        "mean": -0.01216,
+        "std": 0.009
+      },
+      "ret_lag3": {
+        "mean": 0.00265,
+        "std": 0.00704
+      },
+      "ret_lag5": {
+        "mean": 0.00289,
+        "std": 0.00446
+      },
+      "roc10": {
+        "mean": 0.00648,
+        "std": 0.00705
+      },
+      "ma10_rel": {
+        "mean": 0.02094,
+        "std": 0.01027
+      },
+      "ma30_rel": {
+        "mean": 0.00401,
+        "std": 0.00564
+      },
+      "rsi": {
+        "mean": 0.00112,
+        "std": 0.00596
+      },
+      "macd_rel": {
+        "mean": 0.00088,
+        "std": 0.00654
+      },
+      "stoch_k": {
+        "mean": 0.00682,
+        "std": 0.00645
+      },
+      "willr": {
+        "mean": 0.00389,
+        "std": 0.00701
+      },
+      "vol_rel": {
+        "mean": 0.01075,
+        "std": 0.00823
+      }
+    },
+    "trials": {
+      "rf_grid_configs": 12,
+      "rf_cv_fits": 61,
+      "other_models": 3
+    },
+    "rf_acc_ci_low": 0.5722,
+    "rf_acc_ci_high": 0.6603,
+    "dir_p_raw": 0.118696
+  },
+  "risk": {
+    "n_train": 1855,
+    "n_embargo": 10,
+    "n_test": 467,
+    "train_mean_range": 0.013916,
+    "test_mean_range": 0.01747,
+    "har_intercept": 0.003703,
+    "har_coefs": {
+      "har_d": 0.150023,
+      "har_w": 0.188121,
+      "har_m": 0.395321
+    },
+    "rf_best_params": {
+      "max_depth": 3,
+      "min_samples_leaf": 20,
+      "n_estimators": 200
+    },
+    "har_r2_vs_hist": 0.1968,
+    "har_r2_vs_m22": 0.0698,
+    "rf_r2_vs_hist": 0.1389,
+    "rf_r2_vs_m22": 0.0028,
+    "m22_r2_vs_hist": 0.1365,
+    "prev_r2_vs_hist": -0.1857,
+    "spearman_har": 0.365,
+    "spearman_rf": 0.3157,
+    "spearman_m22": 0.2515,
+    "trials": {
+      "rf_grid_configs": 12,
+      "rf_cv_fits": 61,
+      "other_models": 4
+    },
+    "dm_har_vs_hist": {
+      "dm_stat": 4.1334,
+      "p_raw": 1.8e-05,
+      "maxlags": 5
+    },
+    "dm_har_vs_m22": {
+      "dm_stat": 2.5568,
+      "p_raw": 0.005282,
+      "maxlags": 5
+    },
+    "dm_rf_vs_hist": {
+      "dm_stat": 2.6872,
+      "p_raw": 0.003602,
+      "maxlags": 5
+    },
+    "dm_har_vs_rf": {
+      "dm_stat": 2.9102,
+      "p_raw": 0.001806,
+      "maxlags": 5
+    }
+  }
+}

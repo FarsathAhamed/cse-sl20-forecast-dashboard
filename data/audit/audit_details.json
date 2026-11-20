@@ -1,0 +1,77 @@
+{
+  "CFIN": {
+    "symbol": "CFIN",
+    "gap_events": [],
+    "jump_events": []
+  },
+  "COMB": {
+    "symbol": "COMB",
+    "gap_events": [],
+    "jump_events": []
+  },
+  "DIAL": {
+    "symbol": "DIAL",
+    "gap_events": [],
+    "jump_events": []
+  },
+  "HAYL": {
+    "symbol": "HAYL",
+    "gap_events": [],
+    "jump_events": []
+  },
+  "HHL": {
+    "symbol": "HHL",
+    "gap_events": [],
+    "jump_events": [
+      {
+        "date": "2016-10-25",
+        "return_pct": 78.63,
+        "prev_close": 56.43,
+        "close": 100.8023
+      },
+      {
+        "date": "2025-04-28",
+        "return_pct": -79.71,
+        "prev_close": 120.0,
+        "close": 24.35
+      }
+    ]
+  },
+  "HNB": {
+    "symbol": "HNB",
+    "gap_events": [],
+    "jump_events": []
+  },
+  "JKH": {
+    "symbol": "JKH",
+    "gap_events": [],
+    "jump_events": [
+      {
+        "date": "2024-10-31",
+        "return_pct": -90.0,
+        "prev_close": 212.5,
+        "close": 21.25
+      }
+    ]
+  },
+  "LOLC": {
+    "symbol": "LOLC",
+    "gap_events": [],
+    "jump_events": []
+  },
+  "NDB": {
+    "symbol": "NDB",
+    "gap_events": [],
+    "jump_events": []
+  },
+  "SAMP": {
+    "symbol": "SAMP",
+    "gap_events": [],
+    "jump_events": []
+  },
+  "VONE": {
+    "symbol": "VONE",
+    "gap_events": [],
+    "jump_events": []
+  }
+}

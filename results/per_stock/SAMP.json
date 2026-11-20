@@ -1,0 +1,157 @@
+{
+  "symbol": "SAMP",
+  "name": "Sampath Bank PLC",
+  "direction": {
+    "n_train": 1823,
+    "n_embargo": 10,
+    "n_test": 459,
+    "train_start": "2015-03-09",
+    "train_end": "2024-01-02",
+    "test_start": "2024-01-18",
+    "test_end": "2026-02-17",
+    "best_params": {
+      "max_depth": 5,
+      "min_samples_leaf": 20,
+      "n_estimators": 500
+    },
+    "cv_best_balanced_acc": 0.5283,
+    "rf_train_acc": 0.6358,
+    "rf_test_acc": 0.5185,
+    "rf_correct": 238,
+    "rf_bal_acc": 0.5203,
+    "rf_mcc": 0.0489,
+    "maj_class_from_train": 0,
+    "maj_acc_train_rule": 0.4967,
+    "maj_rate_test": 0.5033,
+    "prev_day_acc": 0.5381,
+    "prev_day_bal_acc": 0.5381,
+    "prev_day_mcc": 0.0762,
+    "lr_acc": 0.512,
+    "lr_bal_acc": 0.5137,
+    "lr_mcc": 0.0325,
+    "confusion_matrix_labels": [
+      "Not-Up (0)",
+      "Up (1)"
+    ],
+    "confusion_matrix": [
+      [
+        182,
+        46
+      ],
+      [
+        175,
+        56
+      ]
+    ],
+    "permutation_importance": {
+      "ret1": {
+        "mean": 0.0069,
+        "std": 0.0121
+      },
+      "ret_lag2": {
+        "mean": 0.00104,
+        "std": 0.00526
+      },
+      "ret_lag3": {
+        "mean": -0.00253,
+        "std": 0.00473
+      },
+      "ret_lag5": {
+        "mean": -0.00073,
+        "std": 0.00942
+      },
+      "roc10": {
+        "mean": 0.00738,
+        "std": 0.00746
+      },
+      "ma10_rel": {
+        "mean": 0.01587,
+        "std": 0.00927
+      },
+      "ma30_rel": {
+        "mean": -0.00135,
+        "std": 0.00479
+      },
+      "rsi": {
+        "mean": 0.00093,
+        "std": 0.00691
+      },
+      "macd_rel": {
+        "mean": -0.00895,
+        "std": 0.00847
+      },
+      "stoch_k": {
+        "mean": 0.00326,
+        "std": 0.00879
+      },
+      "willr": {
+        "mean": 0.00594,
+        "std": 0.00918
+      },
+      "vol_rel": {
+        "mean": 0.00741,
+        "std": 0.0035
+      }
+    },
+    "trials": {
+      "rf_grid_configs": 12,
+      "rf_cv_fits": 61,
+      "other_models": 3
+    },
+    "rf_acc_ci_low": 0.4728,
+    "rf_acc_ci_high": 0.5639,
+    "dir_p_raw": 0.272492
+  },
+  "risk": {
+    "n_train": 1823,
+    "n_embargo": 10,
+    "n_test": 459,
+    "train_mean_range": 0.018767,
+    "test_mean_range": 0.017977,
+    "har_intercept": 0.002478,
+    "har_coefs": {
+      "har_d": 0.234194,
+      "har_w": 0.313163,
+      "har_m": 0.323229
+    },
+    "rf_best_params": {
+      "max_depth": 8,
+      "min_samples_leaf": 20,
+      "n_estimators": 500
+    },
+    "har_r2_vs_hist": 0.2477,
+    "har_r2_vs_m22": 0.2,
+    "rf_r2_vs_hist": 0.199,
+    "rf_r2_vs_m22": 0.1481,
+    "m22_r2_vs_hist": 0.0597,
+    "prev_r2_vs_hist": -0.0217,
+    "spearman_har": 0.4844,
+    "spearman_rf": 0.4146,
+    "spearman_m22": 0.3451,
+    "trials": {
+      "rf_grid_configs": 12,
+      "rf_cv_fits": 61,
+      "other_models": 4
+    },
+    "dm_har_vs_hist": {
+      "dm_stat": 2.7909,
+      "p_raw": 0.002628,
+      "maxlags": 5
+    },
+    "dm_har_vs_m22": {
+      "dm_stat": 3.1374,
+      "p_raw": 0.000852,
+      "maxlags": 5
+    },
+    "dm_rf_vs_hist": {
+      "dm_stat": 2.1256,
+      "p_raw": 0.016767,
+      "maxlags": 5
+    },
+    "dm_har_vs_rf": {
+      "dm_stat": 3.1373,
+      "p_raw": 0.000853,
+      "maxlags": 5
+    }
+  }
+}

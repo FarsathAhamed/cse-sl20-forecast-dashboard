@@ -1,0 +1,32 @@
+# Virtual environments & IDE
+.venv/
+venv/
+.idea/
+.vscode/
+
+# Python cache & test artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Runtime model cache (auto-generated on first run)
+artifacts/
+
+# Legacy & OS files
+archive_old_v1/
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# Paper & abstract drafts
+Claude_Revising-rejected-conference-abstract-for-publication_20261119-2133
+paper
+AIMT_abstract_fernando.pdf
+
+# Guides & workflow prompts
+DASHBOARD_4STEP_GUIDE
+step_prompt
+PROJECT_REMAKE_WORKFLOW
+EXECUTION_GUIDE_8_PHASES

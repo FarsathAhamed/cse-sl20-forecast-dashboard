@@ -1,0 +1,109 @@
+# Frozen Pre-Registered Research Protocol (Phase 1)
+# DO NOT MODIFY AFTER RUNNING PHASE 6 (MODEL EVALUATION)
+# Reference: AIMT_abstract_fernando.pdf & EXECUTION_GUIDE_8_PHASES.md
+
+study:
+  title: "Next-day direction and risk forecasting on the Colombo Stock Exchange: a leakage-controlled evaluation of eleven S&P SL20 stocks"
+  universe_source: "S&P Sri Lanka 20 (June 2026)"
+  min_trading_days: 2500
+  selection_seed: 42
+  start_date: "2015-01-01"
+  end_date: "2026-08-31"
+  currency: "LKR"
+
+tickers:
+  - symbol: "CFIN"
+    name: "Central Finance Company PLC"
+    file_stem: "CFIN_N0000"
+  - symbol: "COMB"
+    name: "Commercial Bank of Ceylon PLC"
+    file_stem: "COMB_N0000"
+  - symbol: "DIAL"
+    name: "Dialog Axiata PLC"
+    file_stem: "DIAL_N0000"
+  - symbol: "HAYL"
+    name: "Hayleys PLC"
+    file_stem: "HAYL_N0000"
+  - symbol: "HHL"
+    name: "Hemas Holdings PLC"
+    file_stem: "HHL_N0000"
+  - symbol: "HNB"
+    name: "Hatton National Bank PLC"
+    file_stem: "HNB_N0000"
+  - symbol: "JKH"
+    name: "John Keells Holdings PLC"
+    file_stem: "JKH_N0000"
+  - symbol: "LOLC"
+    name: "LOLC Holdings PLC"
+    file_stem: "LOLC_N0000"
+  - symbol: "NDB"
+    name: "National Development Bank PLC"
+    file_stem: "NDB_N0000"
+  - symbol: "SAMP"
+    name: "Sampath Bank PLC"
+    file_stem: "SAMP_N0000"
+  - symbol: "VONE"
+    name: "Vallibel One PLC"
+    file_stem: "VONE_N0000"
+
+cleaning:
+  drop_zero_ohlc: true
+  drop_invalid_high_lt_low: true  # Pre-modeling Gate 3 rule: drops corrupted Yahoo OHLC rows where High < Low
+  drop_identical_prev_row: true
+  drop_zero_volume_flat: true     # Pre-modeling Phase 2 audit rule: removes Yahoo forward-filled holiday/closure rows (Vol==0 & O==H==L==C)
+  break_min_calendar_gap_days: 6
+  break_min_abs_return: 0.50
+  post_break_purge_rows: 30
+
+features:
+  direction:
+    - "ret1"
+    - "ret_lag2"
+    - "ret_lag3"
+    - "ret_lag5"
+    - "roc10"
+    - "ma10_rel"
+    - "ma30_rel"
+    - "rsi"
+    - "macd_rel"
+    - "stoch_k"
+    - "willr"
+    - "vol_rel"
+  risk_har:
+    - "har_d"
+    - "har_w"
+    - "har_m"
+
+split:
+  train_fraction: 0.80        # Chronological ~Jan 2015 to mid-2024
+  embargo_gap_days: 10        # Dropped strictly between train and test
+  cv_splits: 5                # TimeSeriesSplit strictly inside training
+
+direction_model:
+  random_state: 42
+  scoring: "balanced_accuracy"
+  rf_param_grid:
+    n_estimators: [200, 500]
+    max_depth: [3, 5, 8]
+    min_samples_leaf: [20, 50]
+  baselines:
+    - "majority_class"
+    - "previous_day"
+    - "logistic_regression"
+
+risk_model:
+  random_state: 42
+  scoring: "neg_mean_squared_error"
+  rf_param_grid:
+    n_estimators: [200, 500]
+    max_depth: [3, 5, 8]
+    min_samples_leaf: [20, 50]
+  baselines:
+    - "historical_average"
+    - "rolling_22d_mean"
+
+statistics:
+  alpha: 0.05
+  wilson_ci_alpha: 0.05
+  hac_maxlags: null           # Auto Newey-West bandwidth: floor(4 * (T/100)^(2/9))
+  multiple_testing: "holm"
