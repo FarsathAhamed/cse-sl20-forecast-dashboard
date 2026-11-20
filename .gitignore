@@ -21,12 +21,12 @@ Thumbs.db
 *.tmp
 
 # Paper & abstract drafts
-Claude_Revising-rejected-conference-abstract-for-publication_20261119-2133
+Claude_Revising-rejected-conference-abstract-for-publication_20261119-2133.md
 paper
 AIMT_abstract_fernando.pdf
 
 # Guides & workflow prompts
-DASHBOARD_4STEP_GUIDE
-step_prompt
-PROJECT_REMAKE_WORKFLOW
-EXECUTION_GUIDE_8_PHASES
+DASHBOARD_4STEP_GUIDE.md
+step_prompt.md
+PROJECT_REMAKE_WORKFLOW.md
+EXECUTION_GUIDE_8_PHASES.md
